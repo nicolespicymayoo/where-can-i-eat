@@ -22,19 +22,18 @@
         "jsx-no-lambda": false,
         "jsx-no-multiline-js": false,
         "label-position": true,
-        "max-line-length": [ true, 120 ],
+        "max-line-length": [ false, 350 ],
         "member-ordering": [
             true,
             "public-before-private",
             "static-before-instance",
             "variables-before-functions"
         ],
-        "no-any": true,
+        "no-any": false,
         "no-arg": true,
         "no-bitwise": true,
         "no-console": [
             true,
-            "log",
             "error",
             "debug",
             "info",
@@ -53,7 +52,7 @@
         "no-switch-case-fall-through": true,
         "no-trailing-whitespace": false,
         "no-unused-expression": true,
-        "no-use-before-declare": true,
+        "no-use-before-declare": false,
         "one-line": [
             true,
             "check-catch",
